@@ -101,7 +101,7 @@ while True:
     #cv2.waitKey(0)
 
     # Print the adjusted green signal times for each lane
-    gst = min(green_signal_times)
+    gst = max(green_signal_times)
     print(f"Green Signal Time: {gst} seconds")
  
 
