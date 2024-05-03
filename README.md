@@ -6,6 +6,8 @@ This repository contains code for the Adaptive Traffic Signal Control System emp
 - Lane Detection
 - Vehicle Counting
 - Data Analysis
+  
+https://github.com/AhabbscienceStudioPak/Traffic-Signal-Optimizer-Raasta.ai-AI-Challenge-2024/assets/20723327/935e94b5-1a71-4012-b0a8-aaf63e4acfaa
 
 ## Requirements
 
@@ -43,8 +45,6 @@ cd your-repository
 3. Run the main.py script:
 python main.py
 
-## Demo
-![video of a demo project could not be loaded](AhabbscienceStudioPak/Traffic-Signal-Optimizer-Raasta.ai-AI-Challenge-2024/blob/master/demo-video.mp4)
 
 ## Team Members
 1. Sohaib Nasir
