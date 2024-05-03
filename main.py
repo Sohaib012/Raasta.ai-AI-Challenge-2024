@@ -77,6 +77,9 @@ while True:
         (((524, 367)), (650, 367), (897, img_height), ((609, img_height))) 
     ]
 
+    # Define initial green signal times for each lane
+    green_signal_times = [10] * len(lane_rois)   # Initial green signal time for each lane in seconds
+
     lane_vehicle_counts = [0] * len(lane_rois) 
     already_counted = [[] for _ in range(len(lane_rois))] 
 
@@ -86,11 +89,20 @@ while True:
     # Count vehicles in each lane
     result_img, vehicle_counts = count_vehicles_in_lanes(results, image, lane_rois)
 
+    # Update green signal times based on vehicle counts
+    for i, count in enumerate(vehicle_counts):
+        # Adjust green signal time proportional to the number of vehicles in the lane
+        green_signal_times[i] = max(5, min(30, 10 + count))  # Example adjustment formula
+
     # Display the image with lanes, bounding boxes, and labels
-    cv2.imshow("Image", result_img)
+    cv2.imshow("Demo", result_img)
     #cv2.imshow("Image1", lane_visualized_image)
     cv2.imwrite("result.jpeg", result_img)
     #cv2.waitKey(0)
+
+    # Print the adjusted green signal times for each lane
+    gst = min(green_signal_times)
+    print(f"Green Signal Time: {gst} seconds")
  
 
     # Print the vehicle counts for each lane
