@@ -43,4 +43,6 @@ cd your-repository
 3. Run the main.py script:
 python main.py
 
-
+## Team Members
+1. Sohaib Nasir
+2. Ahabb Sheraz
