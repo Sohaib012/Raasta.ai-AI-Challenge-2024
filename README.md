@@ -1,6 +1,11 @@
 # Raasta.ai-AI-Challenge-2024
 
-This repository contains code for the Adaptive Traffic Signal Control System employing a multi-faceted approach combining computer vision, deep learning, and real-time data analysis.
+This repository contains code for the Adaptive Traffic Signal Control System employing a multi-faceted approach combining computer vision, deep learning, and real-time data analysis employing key components which are:
+
+- Object Detection
+- Lane Detection
+- Vehicle Counting
+- Data Analysis
 
 ## Requirements
 
