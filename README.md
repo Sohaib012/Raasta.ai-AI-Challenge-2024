@@ -7,6 +7,7 @@ This repository contains code for the Adaptive Traffic Signal Control System emp
 - YOLO v8
 - OpenCV
 - NumPy
+- Make sure that the test2.mp4 is present in the same directory as main.py
 
 ## Installation
 
@@ -29,12 +30,12 @@ This repository contains code for the Adaptive Traffic Signal Control System emp
 ## Usage
 
 1. Clone this repository:
-git clone https://github.com/yourusername/your-repository.git
+git clone https://github.com/Sohaib012/Raasta.ai-AI-Challenge-2024.git
 
 2. Navigate to the cloned repository:
 cd your-repository
 
 3. Run the main.py script:
-python detect_objects.py
+python main.py
 
 
