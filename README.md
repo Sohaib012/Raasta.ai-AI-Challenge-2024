@@ -43,6 +43,9 @@ cd your-repository
 3. Run the main.py script:
 python main.py
 
+## Demo
+![video of a demo project could not be loaded](AhabbscienceStudioPak/Traffic-Signal-Optimizer-Raasta.ai-AI-Challenge-2024/blob/master/demo-video.mp4)
+
 ## Team Members
 1. Sohaib Nasir
 2. Ahabb Sheraz
