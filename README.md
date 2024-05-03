@@ -37,13 +37,19 @@ https://github.com/AhabbscienceStudioPak/Traffic-Signal-Optimizer-Raasta.ai-AI-C
 ## Usage
 
 1. Clone this repository:
+```
 git clone https://github.com/Sohaib012/Raasta.ai-AI-Challenge-2024.git
+```
 
-2. Navigate to the cloned repository:
+3. Navigate to the cloned repository:
+```
 cd your-repository
+```
 
-3. Run the main.py script:
+5. Run the main.py script:
+```
 python main.py
+```
 
 
 ## Team Members
