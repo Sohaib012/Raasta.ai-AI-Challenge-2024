@@ -14,7 +14,7 @@ https://github.com/AhabbscienceStudioPak/Traffic-Signal-Optimizer-Raasta.ai-AI-C
 - YOLO v8
 - OpenCV
 - NumPy
-- Make sure that the test2.mp4 is present in the same directory as main.py
+- Make sure that the traffic.mp4 is present in the same directory as main.py
 
 ## Installation
 
